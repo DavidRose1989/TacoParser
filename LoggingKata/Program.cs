@@ -29,7 +29,7 @@ namespace LoggingKata
             // Grab an IEnumerable of locations using the Select command: var locations = lines.Select(parser.Parse);
             var locations = lines.Select(parser.Parse).ToArray();
 
-            // DON'T FORGET TO LOG YOUR STEPS
+            // DON'T FORGET TO LOG YOUR STEPS //hey
 
             // Now that your Parse method is completed, START BELOW ----------
 
